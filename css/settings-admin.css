@@ -1,0 +1,18 @@
+#mattermost input {
+	width: 230px;
+}
+
+#mattermost div label {
+	position: relative;
+}
+
+#mattermost label span {
+	display: inline-block;
+	min-width: 175px;
+	padding: 8px 0px;
+	vertical-align: top;
+}
+
+#mattermost .mattermost-hints p {
+	margin-top: 20px;
+}

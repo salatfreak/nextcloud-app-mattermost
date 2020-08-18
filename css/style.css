@@ -1,0 +1,13 @@
+#mattermost-frame {
+	display: block;
+	width: 100%;
+}
+
+#mattermost-error {
+	padding-top: 0.5em;
+	font-size: 3em;
+	color: red;
+	line-height: 100%;
+	align-self: center;
+	margin: 0 auto;
+}

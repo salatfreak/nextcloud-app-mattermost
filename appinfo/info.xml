@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>mattermost</id>
+    <name>Mattermost</name>
+    <summary>Integrate Mattermost into Nextcloud</summary>
+    <description><![CDATA[Embed Mattermost into Nextcloud as an App and synchronize users and groups.
+
+On the Mattermost side, the [Nextcloud Plugin](https://github.com/Salatfreak/mattermost-plugin-nextcloud) needs to be installed.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="dietrich@tierleid-zeigen.org" homepage="https://github.com/Salatfreak">Dietrich Rink</author>
+    <namespace>Mattermost</namespace>
+    <category>integration</category>
+    <category>social</category>
+    <bugs>https://github.com/Salatfreak/nextcloud-mattermost-app/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="19"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Chat</name>
+            <route>mattermost.page.index</route>
+        </navigation>
+    </navigations>
+		<settings>
+			<admin>OCA\Mattermost\Settings\AdminSettings</admin>
+			<admin-section>OCA\Mattermost\Settings\AdminSection</admin-section>
+		</settings>
+</info>

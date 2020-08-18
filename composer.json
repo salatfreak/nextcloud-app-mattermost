@@ -1,0 +1,17 @@
+{
+    "name": "Mattermost",
+    "description": "Integrate Mattermost into Nextcloud",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Dietrich Rink"
+        }
+    ],
+    "require": {
+        "gnello/php-mattermost-driver": "^2.13"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
